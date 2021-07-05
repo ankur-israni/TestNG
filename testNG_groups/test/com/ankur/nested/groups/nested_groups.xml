@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="nested groups" >
+    <test name="Nested Groups Test" >
+        <groups>
+            <define name = "OuterGroup">
+                <include name = "InnerGroup"></include>
+            </define>
+            <run>
+                <include name = "OuterGroup"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.ankur.nested.groups.NestedGroups" />
+        </classes>
+    </test>
+</suite>

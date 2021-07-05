@@ -1,0 +1,22 @@
+<suite name="Suite Groups">
+<groups>
+    <run>
+        <include name="ui"/>
+    </run>
+</groups>
+<test name="Login Tests">
+    <classes>
+        <class name="com.ankur.suite.groups.LoginGroup"/>
+    </classes>
+</test>
+<test name="Cart Tests">
+    <classes>
+        <class name="com.ankur.suite.groups.CartGroup"/>
+    </classes>
+</test>
+<test name="Logout Tests">
+    <classes>
+        <class name="com.ankur.suite.groups.LogoutGroup"/>
+    </classes>
+</test>
+</suite>

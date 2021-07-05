@@ -1,0 +1,13 @@
+<suite name="Regular Expression Groups Suite" >
+<test name="Regular Expression Groups Test" >
+    <groups>
+        <run>
+            <include name = "service.*">
+            </include>
+        </run>
+    </groups>
+    <classes>
+        <class name="com.ankur.regularexpression.groups.RegularExpressionGroups" />
+    </classes>
+</test>
+</suite>

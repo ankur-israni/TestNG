@@ -1,0 +1,13 @@
+<suite name="Exclude Groups" >
+<test name="ExcludeGroupsTest" >
+    <groups>
+        <run>
+            <exclude name = "ui">
+            </exclude>
+        </run>
+    </groups>
+    <classes>
+        <class name="com.ankur.exclude.groups.ExcludeGroups" />
+    </classes>
+</test>
+</suite>

@@ -1,0 +1,17 @@
+<suite name="test groups">
+    <groups>
+        <run>
+            <include name="ui"/>
+        </run>
+    </groups>
+    <test name="UI Group 1 tests">
+        <classes>
+            <class name="com.ankur.test.groups.UIGroup1"/>
+        </classes>
+    </test>
+    <test name="UI Group 2 tests">
+        <classes>
+            <class name="com.ankur.test.groups.UIGroup2"/>
+        </classes>
+    </test>
+</suite>
