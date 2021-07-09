@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Optional and Normal Parameters Suite">
+
+    <!--The 'message' parameter is set here, so it will override the 'optional' parameter in the java class. -->
+    <test name="NormalParametersTest">
+        <parameter name="message" value="Normal Parameter" />
+        <classes>
+            <class name="com.ankur.parameters.optional.OptionalParameters" />
+        </classes>
+    </test>
+
+    <!-- No parameter set here, so it will use the 'optional' parameter set in the java class.-->
+    <test name="OptionalParametersTest">
+        <classes>
+            <class name="com.ankur.parameters.optional.OptionalParameters" />
+        </classes>
+    </test>
+</suite>
