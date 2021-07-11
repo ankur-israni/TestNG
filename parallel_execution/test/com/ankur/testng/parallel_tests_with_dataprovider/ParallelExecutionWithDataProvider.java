@@ -10,17 +10,17 @@ public class ParallelExecutionWithDataProvider {
         System.out.println("The Thread ID for " + number + " Is :  " + Thread.currentThread().getId());
     }
 
-    @DataProvider(name = "dp",parallel=true)
+    @DataProvider(name = "dp", parallel = true)
     public Object[][] dataProvider() {
-        return new Object[][] {
-                new Object[] { 1 },
-                new Object[] { 2 },
-                new Object[] { 3 },
-                new Object[] { 4 },
-                new Object[] { 5 },
-                new Object[] { 6 },
-                new Object[] { 7 },
-                new Object[] { 8 }
+        return new Object[][]{
+                new Object[]{1},
+                new Object[]{2},
+                new Object[]{3},
+                new Object[]{4},
+                new Object[]{5},
+                new Object[]{6},
+                new Object[]{7},
+                new Object[]{8}
 
         };
     }
