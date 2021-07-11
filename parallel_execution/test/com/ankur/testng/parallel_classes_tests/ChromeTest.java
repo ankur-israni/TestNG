@@ -1,4 +1,4 @@
-package com.ankur.testng.parallel_test_classes;
+package com.ankur.testng.parallel_classes_tests;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;

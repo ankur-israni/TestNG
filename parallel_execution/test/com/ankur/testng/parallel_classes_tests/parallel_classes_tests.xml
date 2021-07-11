@@ -2,8 +2,8 @@
 <suite name = "Parallel Testing Suite">
     <test name = "Parallel Tests" parallel = "classes" thread-count = "2">
         <classes>
-            <class name = "com.ankur.testng.parallel_test_classes.ChromeTest" />
-            <class name = "com.ankur.testng.parallel_test_classes.FirefoxTest" />
+            <class name = "com.ankur.testng.parallel_classes_tests.ChromeTest" />
+            <class name = "com.ankur.testng.parallel_classes_tests.FirefoxTest" />
         </classes>
     </test>
 </suite>
