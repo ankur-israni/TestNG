@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Parallel Testing Suite">
+    <test name = "Parallel Different Unit Tests" parallel = "methods" thread-count="2">
+        <classes>
+            <class name = "com.ankur.testng.parallel_different_unit_tests.ParallelDifferentUnitTests" />
+        </classes>
+    </test>
+</suite>

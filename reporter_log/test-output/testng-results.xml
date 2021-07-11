@@ -8,19 +8,19 @@
       <![CDATA[closeBrowser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-07-06T03:57:53Z" name="Default Suite" finished-at="2021-07-06T03:57:53Z" duration-ms="15">
+  <suite started-at="2021-07-10T04:12:12Z" name="Default Suite" finished-at="2021-07-10T04:12:12Z" duration-ms="15">
     <groups>
     </groups>
-    <test started-at="2021-07-06T03:57:53Z" name="TestNG" finished-at="2021-07-06T03:57:53Z" duration-ms="15">
+    <test started-at="2021-07-10T04:12:12Z" name="TestNG" finished-at="2021-07-10T04:12:12Z" duration-ms="15">
       <class name="com.ankur.reporterlog.ConsoleEmailAndHtmlReports">
-        <test-method signature="openBrowser()[pri:0, instance:com.ankur.reporterlog.ConsoleEmailAndHtmlReports@6321e813]" started-at="2021-07-05T22:57:53Z" name="openBrowser" finished-at="2021-07-05T22:57:53Z" duration-ms="6" status="PASS">
+        <test-method signature="openBrowser()[pri:0, instance:com.ankur.reporterlog.ConsoleEmailAndHtmlReports@22a67b4]" started-at="2021-07-09T23:12:12Z" name="openBrowser" finished-at="2021-07-09T23:12:12Z" duration-ms="6" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[openBrowser]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="closeBrowser()[pri:0, instance:com.ankur.reporterlog.ConsoleEmailAndHtmlReports@6321e813]" started-at="2021-07-05T22:57:53Z" name="closeBrowser" finished-at="2021-07-05T22:57:53Z" duration-ms="0" status="PASS">
+        <test-method signature="closeBrowser()[pri:0, instance:com.ankur.reporterlog.ConsoleEmailAndHtmlReports@22a67b4]" started-at="2021-07-09T23:12:12Z" name="closeBrowser" finished-at="2021-07-09T23:12:12Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closeBrowser]]>
