@@ -1,4 +1,4 @@
-package com.ankur.testng.same_unit_test;
+package com.ankur.testng.parallel_same_unit_test;
 
 
 import org.testng.annotations.Test;
