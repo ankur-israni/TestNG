@@ -1,15 +1,11 @@
-package com.ankur.listener.iinvokedmethodlistener;
+package com.ankur.listener.imethodinterceptor.iexecutionlistener;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
 
-@Listeners(value = MyIInvokedMethodListener.class)
+@Listeners(value = MyIExecutionListener.class)
 public class MyTest {
 
 

@@ -1,4 +1,4 @@
-package com.ankur.listener.ireporter;
+package com.ankur.listener.imethodinterceptor.ireporter;
 
 import org.testng.IReporter;
 import org.testng.ISuite;

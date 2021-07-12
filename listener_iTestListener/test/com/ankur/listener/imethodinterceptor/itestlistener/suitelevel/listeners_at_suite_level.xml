@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="ListnerAtSuiteLevel">
     <listeners>
-        <listener class-name = "com.ankur.listener.itestlistener.suitelevel.MyListener"></listener>
+        <listener class-name = "com.ankur.listener.imethodinterceptor.itestlistener.suitelevel.MyListener"></listener>
     </listeners>
 
     <test name="Listeners at suite level test">
         <classes>
-            <class name="com.ankur.listener.itestlistener.suitelevel.MyTest"></class>
+            <class name="com.ankur.listener.imethodinterceptor.itestlistener.suitelevel.MyTest"></class>
         </classes>
     </test>
 

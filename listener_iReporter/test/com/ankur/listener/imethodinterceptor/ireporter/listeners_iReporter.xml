@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="ListnerAtSuiteLevel">
     <listeners>
-        <listener class-name = "com.ankur.listener.ireporter.ReportGeneratorListener"></listener>
+        <listener class-name = "com.ankur.listener.imethodinterceptor.ireporter.ReportGeneratorListener"></listener>
     </listeners>
 
     <test name="Tests using iReport listener">
         <classes>
-            <class name="com.ankur.listener.ireporter.MyTest"></class>
+            <class name="com.ankur.listener.imethodinterceptor.ireporter.MyTest"></class>
         </classes>
     </test>
 

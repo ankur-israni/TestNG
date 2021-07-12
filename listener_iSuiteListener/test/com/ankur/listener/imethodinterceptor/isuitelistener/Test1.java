@@ -1,4 +1,4 @@
-package com.ankur.listener.isuitelistener;
+package com.ankur.listener.imethodinterceptor.isuitelistener;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
