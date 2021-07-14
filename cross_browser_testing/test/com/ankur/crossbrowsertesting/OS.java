@@ -1,6 +1,6 @@
 package com.ankur.crossbrowsertesting;
 
-public enum OSType {
+public enum OS {
 	
 	WINDOWS,MAC,LINUX;
 
