@@ -22,22 +22,38 @@ public class SeleniumService {
     public WebDriver loadDriver(OS os, Browser browser){
         WebDriver driver = null;
 
-
-        if(os==MAC){
-            if(browser==CHROME){
+        if(browser==CHROME){
+            driver = new ChromeDriver();
+            if(os==MAC){
                 System.setProperty("webdriver.chrome.driver", MAC_CHROME_DRIVER);
-
-            }else if(browser==FIREFOX){
-                System.setProperty("webdriver.gecko.driver", MAC_FIREFOX_DRIVER);
-
-            }
-        }else if(os==WINDOWS){
-            if(browser==CHROME){
+            }else if(os==WINDOWS){
                 System.setProperty("webdriver.chrome.driver", WINDOWS_CHROME_DRIVER);
-            }else if(browser==FIREFOX){
+            }
+        }else if(browser==FIREFOX){
+            driver = new FirefoxDriver();
+            if(os==MAC){
+                System.setProperty("webdriver.gecko.driver", MAC_FIREFOX_DRIVER);
+            }else if(os==WINDOWS){
                 System.setProperty("webdriver.gecko.driver", WINDOWS_FIREFOX_DRIVER);
             }
         }
+
+//
+//        if(os==MAC){
+//            if(browser==CHROME){
+//                System.setProperty("webdriver.chrome.driver", MAC_CHROME_DRIVER);
+//
+//            }else if(browser==FIREFOX){
+//                System.setProperty("webdriver.gecko.driver", MAC_FIREFOX_DRIVER);
+//
+//            }
+//        }else if(os==WINDOWS){
+//            if(browser==CHROME){
+//                System.setProperty("webdriver.chrome.driver", WINDOWS_CHROME_DRIVER);
+//            }else if(browser==FIREFOX){
+//                System.setProperty("webdriver.gecko.driver", WINDOWS_FIREFOX_DRIVER);
+//            }
+//        }
 
         return driver;
     }
