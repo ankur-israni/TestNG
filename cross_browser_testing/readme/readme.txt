@@ -17,3 +17,5 @@ Note: The driver will be installed in /usr/local/bin/chromedriver
 2) firefox:
 brew install geckodriver
 Note: The driver will be installed in /usr/local/bin/geckodriver
+
+2) The selenium shop project should be deployed and started before you run the cross_browser_tests.
