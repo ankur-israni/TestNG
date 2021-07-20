@@ -10,7 +10,6 @@
         </groups>
         <classes>
             <class name="com.ankur.dependenttests.groups_dependency_in_xmlsuite.GroupDependencyInXMLSuiteTests" />
-
         </classes>
     </test>
 </suite>

@@ -17,7 +17,6 @@ import org.testng.annotations.Test;
  *  - they are executed in alphabetical order i.e. (1) login() and then (2) openBrowser()
  */
 public class GroupDependentTests {
-
     @Test(dependsOnGroups = "SignIn")
     public void viewAccount(){
         System.out.println("viewAccount()");
@@ -32,7 +31,4 @@ public class GroupDependentTests {
     public void login(){
         System.out.println("login()");
     }
-
-
-
 }
